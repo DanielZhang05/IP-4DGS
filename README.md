@@ -7,6 +7,46 @@
 | Pregenerated Point Clouds by COLMAP | [Google Drive](https://drive.google.com/drive/folders/1_JOObfpXrCq3v_NYKwDt6vRHIbb0oVek?usp=sharing) | [BaiduWangpan](https://pan.baidu.com/s/15jDvS-zSW7pfdvzdwP32mQ?pwd=9y2u)
 <img src="./assets/teaser.png"> 
 This repository contains the official implementation of the paper "4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models" (CVPR 2025).
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">😊LangSplat Family</h2>
+
+  <pre><code>@inproceedings{li20254d,
+  title={4d langsplat: 4d language gaussian splatting via multimodal large language models},
+  author={Li, Wanhua and Zhou, Renping and Zhou, Jiawei and Song, Yingwei and Herter, Johannes and Qin, Minghan and Huang, Gao and Pfister, Hanspeter},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={22001--22011},
+  year={2025}
+}</code></pre>
+<p><strong>🎉 Our work is based on LangSplat, and we thank them for their contributions!</strong> 
+    This work ground CLIP features into a set of 3D language Gaussians, which attains precise 3D language fields while being <strong>199 ×</strong> faster than LERF. <a href="https://langsplat.github.io/" target="_blank" style="text-decoration: underline;">[CVPR 2024] LangSplat </a>
+<pre><code>@inproceedings{qin2024langsplat,
+  title={Langsplat: 3d language gaussian splatting},
+  author={Qin, Minghan and Li, Wanhua and Zhou, Jiawei and Wang, Haoqian and Pfister, Hanspeter},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={20051--20060},
+  year={2024}
+}</code></pre>
+
+  <p><strong>🎉 We have released LangSplat V2!</strong>  
+  The new version significantly improves performance, achieving over <strong>450+ FPS</strong> in rendering.  <a href="https://langsplat-v2.github.io/" target="_blank" style="text-decoration: underline;">[NeurIPS 2025] LangSplat V2</a>
+  </p>
+
+  <pre><code>@article{li2025langsplatv2,
+  title={LangSplatV2: High-dimensional 3D Language Gaussian Splatting with 450+ FPS},
+  author={Li, Wanhua and Zhao, Yujie and Qin, Minghan and Liu, Yang and Cai, Yuanhao and Gan, Chuang and Pfister, Hanspeter},
+  journal={arXiv preprint arXiv:2507.07136},
+  year={2025}
+}</code></pre>
+  
+  </div> 
+</section>
+
+  
+  </div>
+</section>
+
 ## BibTeX
 ```
 @inproceedings{li20254dlangsplat4dlanguage,
