@@ -7,9 +7,6 @@
 [submodule "submodules/4d-langsplat-tracking-anything-with-deva"]
 	path = submodules/4d-langsplat-tracking-anything-with-deva
 	url = https://github.com/zrporz/4d-langsplat-tracking-anything-with-deva.git
-[submodule "co-tracker"]
-	path = co-tracker
-	url = https://github.com/facebookresearch/co-tracker.git
 [submodule "submodules/cotracker"]
 	path = submodules/cotracker
 	url = https://github.com/facebookresearch/co-tracker.git
