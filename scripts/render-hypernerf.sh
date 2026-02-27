@@ -7,8 +7,6 @@ dataset_name=americano
 
 ########## time-agnostic language field ##########
 export language_feature_hiddendim=${clip_feat_dim}
-rm -rf submodules/4d-langsplat-rasterization/build 
-pip install --no-cache-dir -e submodules/4d-langsplat-rasterization
 export use_discrete_lang_f=f
 for level in 1 2 3; do
 for mode in "lang" "rgb"; do
@@ -20,7 +18,7 @@ done
 hiddendim=6
 export language_feature_hiddendim=${video_feat_dim}
 rm -rf submodules/4d-langsplat-rasterization/build 
-pip install --no-cache-dir -e submodules/4d-langsplat-rasterization
+pip install --no-cache-dir --no-build-isolation submodules/4d-langsplat-rasterization
 export use_discrete_lang_f=t
 for level in 0; do
 for mode in "lang" "rgb"; do

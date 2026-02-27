@@ -205,9 +205,9 @@ def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor, 
             colors_precomp = torch.clamp_min(sh2rgb + 0.5, 0.0)
         else:
             pass
-            # shs = 
     else:
         colors_precomp = override_color
+        shs_final = None # Fix: Ensure shs is None when override_color is provided
 
     
     # import pdb; pdb.set_trace()
